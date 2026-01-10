@@ -1,0 +1,12 @@
+/downloads
+*downloads
+
+./downloads/*
+
+env
+./env   
+.env
+.env.example
+
+# vs code 
+.vscode
