@@ -1,12 +1,46 @@
-/downloads
-*downloads
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-./downloads/*
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
 
-env
-./env   
+# Virtualenv
+venv/
+env/
+.venv/
+.env/
+
+# Environment Variables
 .env
-.env.example
+.env.*
 
-# vs code 
-.vscode
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Testing
+htmlcov/
+.tox/
+coverage.xml
+.coverage
+
+# Project Specific
+test.html
+test.py
+
+todo.txt
