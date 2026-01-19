@@ -22,7 +22,8 @@ def get_social_media_video(url):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
-social_media_video_link = "https://www.tiktok.com/@sahalom_howladar/video/7562750709536410887?is_from_webapp=1&sender_device=pc"
+# social_media_video_link = "https://www.tiktok.com/@sahalom_howladar/video/7562750709536410887?is_from_webapp=1&sender_device=pc"
+social_media_video_link = "https://www.instagram.com/stories/shishirrsiam/"
 
 st = get_social_media_video(social_media_video_link)
 
